@@ -88,7 +88,7 @@ nav li {
     background-repeat: no-repeat;
 }
 
-button {
+.button-primary {
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
@@ -182,42 +182,70 @@ button {
     font-weight: 400;
     line-height: 30px;
 }
-.funny-games{
+
+.funny-games {
     height: 874px;
     width: 75%;
-    margin:0 auto;
+    margin: 0 auto;
 
 
 }
-.funnygames-img{
+
+.funnygames-img {
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 24px;
 
 
 }
-.funny-games-text{
+
+.funny-games-text {
     margin-left: 350px;
     padding-top: 90px;
 }
-.text{
+
+.text {
     margin-left: 90px;
     padding-bottom: 24px;
 }
 
-.img69{
+.img69 {
     position: relative;
     right: 200px;
     top: 120px;
 
 }
-.play-games-anywhere{
+
+.play-games-anywhere {
     display: flex;
     text-align: right;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 300px;
 }
-.genre{
-    height: 427px;
+
+.genre {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+
+    justify-items: center;
+    row-gap: 40px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+button {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: #FFF;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;}
+button:hover{
+    border:5px solid #F948B2;
+    color: #F948B2;
 }
