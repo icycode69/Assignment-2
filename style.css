@@ -1,0 +1,129 @@
+/* This is nav section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    height: 130px;
+
+}
+
+.gamer-text {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FF42A5;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 34px;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+.fa-brands {
+    width: 33.916px;
+    height: 24px;
+}
+
+.banner {
+    width: 1920px;
+    height: 5927px;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner li {
+    list-style: none;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-bottom: 17px;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
