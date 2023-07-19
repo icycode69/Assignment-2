@@ -1,3 +1,24 @@
+/* universal styles */
+.gradient {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.text {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
 /* This is nav section */
 nav {
     display: flex;
@@ -62,7 +83,7 @@ nav li {
 
 .banner {
     width: 1920px;
-    height: 5927px;
+    height: 700px;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
 }
@@ -120,10 +141,62 @@ button {
     line-height: normal;
     text-transform: lowercase;
     margin-bottom: 17px;
-    
+
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-around;
+}
+
+.body2 {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.wgm {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.purpose {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.body>p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.funny-games{
+    height: 874px;
+    width: 75%;
+    margin:0 auto;
+
+
+}
+.funnygames-img{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    column-gap: 24px;
+
+
+}
+.funny-games-text{
+    margin-left: 400px;
+    padding-top: 90px;
 }
